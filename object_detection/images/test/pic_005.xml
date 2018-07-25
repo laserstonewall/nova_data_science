@@ -1,0 +1,26 @@
+<annotation>
+	<folder>fighter_subset_test</folder>
+	<filename>pic_005.jpg</filename>
+	<path>/Users/chris.morris/Documents/ChrisDocuments/Presentations/NOVA_Data_Science/fighter_subset_test/pic_005.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>275</width>
+		<height>183</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fighter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>38</xmin>
+			<ymin>35</ymin>
+			<xmax>274</xmax>
+			<ymax>145</ymax>
+		</bndbox>
+	</object>
+</annotation>

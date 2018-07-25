@@ -1,0 +1,26 @@
+<annotation>
+	<folder>fighters_label2</folder>
+	<filename>pic_071.jpg</filename>
+	<path>/Users/chris.morris/Documents/ChrisDocuments/Presentations/NOVA_Data_Science/fighters_label2/pic_071.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>296</width>
+		<height>170</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>fighter</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>128</xmin>
+			<ymin>39</ymin>
+			<xmax>257</xmax>
+			<ymax>129</ymax>
+		</bndbox>
+	</object>
+</annotation>
