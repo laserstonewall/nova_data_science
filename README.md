@@ -21,6 +21,18 @@ to make sure you have the correct version of the Tensorflow models repository in
 
 You will train from the command line as described in the tutorial, and then you can modify the two provided Jupyter notebooks in this repo in order to perform the test detection on your images/video of interest for your new class.
 
+### Videos
+
+Here are a few videos that I tried out my fighter model on. As you can see, it can pick out fighters against a blue sky fairly well, but has many false positive detections in the cockpit, and against darker backgrounds. This is probably due to the limited number of training samples, all of which were reasonably similar.
+
+[F22](https://youtu.be/qv45GI68oIw)
+
+[Fighter Compilation](https://youtu.be/mC77GMDRod8)
+
+[Top Gun Dogfight 1](https://youtu.be/trx_m1sdrkY)
+
+[Top Gun Dogfight 2](https://youtu.be/eCJM0ISh2LM)
+
 ### Building Your Own Dataset
 
 For the Tensorflow Object Detection API example, you will need to build out your own custom dataset. The tutorial has a few Python files to convert your images once they are labeled, but first you will need to get them labeled in the appropriate format. For this, I first did a Google image search for "fighter jet" and then used the Fatkun Batch Download Image plugin for Google Chrome to automatically pull all the images.
